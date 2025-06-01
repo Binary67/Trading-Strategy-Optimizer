@@ -21,5 +21,6 @@ def SimpleBacktest(Strategy, TradingData):
     return {
         'SharpeRatio': SharpeRatio,
         'TotalReturn': TotalReturn,
-        'MaxDrawdown': MaxDrawdown
+        'MaxDrawdown': MaxDrawdown,
+        'CumulativeReturns': CumulativeReturns
     }
